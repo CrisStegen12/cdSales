@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #009688;
+    height: 60px;
+    width: 100%;
+}
+.logo-cd{
+    height: 55px;
+    width: 55px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 5px;
+    width: 60%;
+
+}
+.logo-social{
+    width: 55px;
+    height: 50px;;
+}
+.socialMedia ul li{
+    margin-left: 3px;
+    display: inline-block;
+    float: left;
+
+}
+.socialMedia{
+    width: 28%;
+    float: right;
+    margin-top: -10px;
+}
