@@ -10,6 +10,7 @@ export class CadastroProdutosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
