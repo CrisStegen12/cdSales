@@ -46,15 +46,23 @@
   </main>
   <div class="col-100">
     <div class="slider-principal">
-      <div><img src="../assets/imgs/50cent.jpg"></div>
-      <div><img src="../assets/imgs/beatleles.jpg"></div>
-      <div><img src="../assets/imgs/eminem.jpg"></div>
-      <div><img src="../assets/imgs/u2.jpg"></div>
+        <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide>
+              <img [src]="images[0]" alt="Random first slide">
+            </ng-template>
+            <ng-template ngbSlide>
+              <img [src]="images[1]" alt="Random second slide">
+            </ng-template>
+            <ng-template ngbSlide>
+              <img [src]="images[2]"  alt="Random third slide">
+            </ng-template>
+            <ng-template ngbSlide>
+                <img [src]="images[3]"  alt="Random third slide">
+              </ng-template>
+          </ngb-carousel>
     </div>
   </div>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   <router-outlet></router-outlet>
 </body>
 
