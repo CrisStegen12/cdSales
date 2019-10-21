@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,13 +10,4 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
 
-  images = ['../assets/imgs/50cent.jpg', '../assets/imgs/beatleles.jpg', '../assets/imgs/u2.jpg', '../assets/imgs/eminem.jpg'];
-
-  constructor(config: NgbCarouselConfig) {
-    // customize default values of carousels used by this component tree
-    config.interval = 1000;
-    config.wrap = true;
-    config.keyboard = false;
-    config.pauseOnHover = true;
-  }
 }
