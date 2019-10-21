@@ -1,0 +1,13 @@
+.col-100{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.content {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
