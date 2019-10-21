@@ -1,0 +1,22 @@
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.footer h3{
+    text-align: left;
+}
+.footer{
+    background-color: darkgrey;
+    color: #ffffff;
+}
