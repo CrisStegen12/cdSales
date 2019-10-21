@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { CadastroProdutosComponent } from './cadastro-produtos/cadastro-produtos.component';
 import { AdminComponent } from './admin/admin.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CadastroProdutosComponent,
-    AdminComponent
+    AdminComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
